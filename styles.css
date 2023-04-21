@@ -1,11 +1,11 @@
 @font-face {
     font-family: "Upbolters";
-    src: url(fonts/upbolters.regular_2.ttf);
+    src: url(upbolters.regular_2.ttf);
 }
 
 @font-face {
     font-family: "Hamlin";
-    src: url(fonts/Hamlin-Regular.ttf);
+    src: url(Hamlin-Regular.ttf);
 }
 
 body {
