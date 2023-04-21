@@ -1,0 +1,116 @@
+@font-face {
+    font-family: "Upbolters";
+    src: url(fonts/upbolters.regular_2.ttf);
+}
+
+@font-face {
+    font-family: "Hamlin";
+    src: url(fonts/Hamlin-Regular.ttf);
+}
+
+body {
+    margin: 0;
+    background-color: #ECE8E1;
+    color: #ECE8E1;
+
+    font-family: "Hamlin", sans-serif;
+    font-size: 2.0625em;
+  }
+
+
+/**H E A D E R**/
+
+.header {
+    gap: 60px;
+    align-items: center;
+    justify-content: center;
+    background-color: #0F1923;
+}
+
+.h1za {
+    color: #FF5252;
+    letter-spacing: 3px;
+    /**font-size: 100px; **/
+    font-size: calc(80px + (100 - 80) * ((100vw - 320px) / (1600 - 320)));
+    font-family: "Upbolters", sans-serif;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-left: 30px;
+}
+
+img {
+    border: 3px solid #ECE8E1;
+    width: 25%;
+    height: auto;
+    display: flex;
+}
+
+.info {
+    text-align: left;
+    align-items: flex-start;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    line-height: 10px;
+    height: 50%;
+    padding-left: 20px;
+}
+
+.klasse {
+    text-align: left;
+    display: flex;
+}
+
+.taktiker {
+    letter-spacing: 2px;
+    font-size: 60px;
+    font-family: "Upbolters", sans-serif;
+}
+
+.h6B{
+    display: flex;
+    height: 0.1px;
+}
+
+p {
+    font-size: 24px;
+    line-height: 27.5px;
+}
+
+
+@media (max-width: 768px) {
+    img {
+        width: 100%;
+        height: auto;
+    }
+    .header {
+        flex-direction: column;
+        display: flex;
+    }
+}
+
+/** tablet view **/
+
+@media (min-width: 768px) {
+    .header {
+        flex-direction: row;
+        display: flex;
+    }
+}
+
+
+
+/** K E Y W O R D S**/
+
+.keywords {
+    color: #0F1923;
+}
+
+.abilities-banner {
+    letter-spacing: 2px;
+    font-size: 60px;
+    font-family: "Upbolters", sans-serif;
+    padding-left: 30px;
+}
